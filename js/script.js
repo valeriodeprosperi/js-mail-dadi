@@ -11,3 +11,8 @@ for (var i = 0; i < mailValide.length; i++) {
   if (mailUtente == mailValide[i])
   var mailCorretta = true;
 }
+if (mailCorretta == true){
+  alert ("benvenuto!");
+}else {
+  alert ("siamo spiacenti, accesso negato!")
+}
